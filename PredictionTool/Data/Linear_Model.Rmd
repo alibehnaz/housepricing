@@ -1,0 +1,48 @@
+---
+title: "Linear Model"
+author: "Quentin"
+date: "27 May 2019"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+## Linear Model Documentation
+
+Linear regression is used to predict the value of an outcome variable Y based on one or more input predictor variables X. The aim is to establish a linear relationship (a mathematical formula) between the predictor variable(s) and the response variable, so that, we can use this formula to estimate the value of the response Y, when only the predictors (Xs) values are known.
+
+
+##Introduction
+
+
+The aim of linear regression is to model a continuous variable Y as a mathematical function of one or more X variable(s), so that we can use this regression model to predict the Y when only the X is known. This mathematical equation can be generalized as follows:
+
+$$Y = \beta1 +\beta2 * x +  \Gamma$$
+
+
+
+where, $\beta1$ is the intercept and $\beta2$ is the slope. Collectively, they are called regression coefficients. $\Gamma$ is the error term, the part of Y the regression model is unable to explain.
+
+For more details on using Linear Model see <http://r-statistics.co/Linear-Regression.html>.
+
+
+<!-- ```{r cars} -->
+<!-- summary(cars) -->
+<!-- ``` -->
+
+<!-- ## Including Plots -->
+
+<!-- You can also embed plots, for example: -->
+
+<!-- ```{r pressure, echo=FALSE} -->
+<!-- plot(pressure) -->
+<!-- ``` -->
+
+<!-- Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot. -->
